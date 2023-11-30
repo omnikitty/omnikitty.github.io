@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="calculator.js"></script>
+    <form>
+        <label class="label" for="wavelength">Wavelength (nm)</label><br>
+        <input type="text" id="wavelength" name="wavelength"><br>
+        <label class="label" for="energy">eV</label><br>
+        <input type="text" id="energy" name="energy">
+      </form>
+    <button type="button" class="but" onclick="calc_eV()">calc</button>
+    <button type="button" class="but" onclick="clear_eV()">clear</button>
+  </body>
+</html>
